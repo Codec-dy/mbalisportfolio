@@ -16,3 +16,4 @@ const MiniProjections = ({project}) => {
 }
 
 export default MiniProjections
+
