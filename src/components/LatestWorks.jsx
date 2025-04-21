@@ -17,9 +17,9 @@ const [proj, setProj] = useState(null);
     },[refresh]);
 
   return (
-    <div className='my-8 text-left'>
-        <p>My Latest Works</p>     
-          <div className='min-w-[70%] grid grid-cols-1 sm:grid-cols-3 sm:flex-row gap-4 overflow-hidden'>
+    <div className=' text-left'>
+        <h1 className='text-2xl  font-semibold text-center'>My Latest Works</h1>     
+          <div className='flex flex-col md:flex-row justify-center gap-4 items-center overflow-hidden'>
           {projects.slice(0,3).map((project,index)=>(<div key={index}  onClick={()=>{setProj(project)}} ><MiniProjections  project={project}/></div>))}
           </div>
         

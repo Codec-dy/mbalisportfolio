@@ -10,7 +10,7 @@ const AddComponent = ({type,title,cancel}) => {
             case "certificates":
                 return {"date":'',title:'',"institution":'',"description":"","img":""}
             case "project":
-                return {"date":'',"techUsed":'',title:'', description:'',category:'',link:'',img:''}
+                return {"date":'',"techUsed":'',title:'', description:'',category:'',link:'',img:'',status:''}
             case "design":
                   return {"date":'',title:'', description:'',"techUsed":'',img:''}
             case "skills":

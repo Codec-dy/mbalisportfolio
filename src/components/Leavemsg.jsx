@@ -27,7 +27,7 @@ function LeaveMsg(){
 
 
     return(
-        <div className='flex flex-col gap-4 p-4 w-full sm:max-w-2xl mx-auto mt-10'>
+        <div className='flex flex-col gap-4 p-4 w-full sm:max-w-2xl mx-auto'>
            
             <h1 className='text-2xl font-semibold text-left'>Leave Me A Message</h1>
             <div className='flex flex-col gap-4 sm:flex-row'>

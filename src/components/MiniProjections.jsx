@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 const MiniProjections = ({project}) => {
     const { setProjectId,setDisplayProject } = useContext(PortfolioContext);
   return project?(
-    <div onClick={()=>{setProjectId(project.id); setDisplayProject(true)}} className='my-8 text-left'>
+    <div onClick={()=>{setProjectId(project.id); setDisplayProject(true)}} className='my-8 text-left max-w-[320px]'>
         <img src={project.img} className='w-full h-[200px]' alt="" />
         <p className='text-sm font-semibold text-gray-900'>{project.title}</p>
         <p className='text-sm font-semibold text-gray-700'>{project.category}</p>
