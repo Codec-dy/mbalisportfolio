@@ -31,8 +31,8 @@ function App() {
   let checkLoc = location.pathname.includes('admin')
   return (
     <AnimatePresence mode="wait">
-     <div className={!checkLoc?'p-4 sm:px-[5vw]':''}>{/*className='p-4 sm:px-[5vw]' */}
-    
+     <div className={`${!checkLoc?'p-4 sm:px-[5vw]':''}`}>
+      <div className='bg-gradient-to-tr from-pink-300 via-purple-300 to-blue-300 opacity-60 blur-3xl fixed z-[-1] w-screen h-screen'></div>
     {!checkLoc && <Navbar /> }
     <Routes>
         <Route path="/" element={<motion.div

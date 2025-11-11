@@ -8,7 +8,7 @@ const AboutCard = ({colType,title,text,img}) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div className={`w-full flex flex-col ${colType} items-start gap-2 max-w-[720px] justify-center m-auto`}>
+    <div className={`w-full flex flex-col sm:flex-row items-start gap-2 max-w-[720px] justify-center m-auto  ${colType} `}>
         <motion.div 
        ref={ref}
       initial={{ opacity: 0, y: 50 }}
@@ -16,7 +16,7 @@ const AboutCard = ({colType,title,text,img}) => {
       exit={{ opacity: 0, y: 50 }}
       transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
         className='w-full sm:w-1/2  '>
-            <LazyLoadImage src={img?img:assets.mbali_pic} effect='blur' alt="" className='max-h-[300px] sm:max-h-[400px] w-full'/>
+            <LazyLoadImage src={img?img:assets.mbali_pic} effect='blur' alt="" className='max-h-[600px] sm:max-h-[400px] w-full'/>
         </motion.div>
         <motion.div
         

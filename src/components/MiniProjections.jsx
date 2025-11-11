@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react'
-import { assets,projects } from '../assets/assets'
 import { PortfolioContext } from '../context/portfolioContext';
 import ProjectCard from './ProjectCard';
 
