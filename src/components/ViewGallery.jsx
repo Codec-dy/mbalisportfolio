@@ -23,7 +23,7 @@ const ViewGallery = ({projectChunks,type}) => {
             return <ProjectCard key={i} link={project.link?project.link:''} index={middle && i===0?index:''} id={project._id} title={project.title} description={project.description} img={project.img}/>
         }else if(type==='cert'){
 
-         return (<CertificateCard key={i} txt={'Completed a Udemy Course on Portfolios'} id={project.id} link={project.link} title={project.title} img={project.img} date={project.date} institute={project.institution} />)
+         return (<CertificateCard key={i} txt={'Completed'} id={project.id} link={project.link} title={project.title} img={project.img} date={project.date} institute={project.institution} />)
         }
         else{
             return (<img key={i} src={project.img} onClick={()=>setDisplayImg(project.img)} className='max-w-full'  />)

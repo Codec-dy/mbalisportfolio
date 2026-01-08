@@ -90,5 +90,5 @@ export const Details = {
 
 export const websiteInfo = {
     frontPage:"Welcome to my portfolio where creativity meets purpose. This is a collection of my work in filmmaking, graphic design, and storytelling, each project a reflection of my passion for visual and emotional storytelling. From documentary filmmaking and commercial production to music videos and graphic design, I bring ideas to life with authenticity and impact. Explore my portfolio and experience the stories I’ve had the privilege to tell.",
-    website:'danielsportfolio.com'
+    website:'www.mbaliportfolio.com',
 }
