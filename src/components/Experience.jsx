@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import SummaryCard from './SummaryCard'
-import { PortfolioContext } from '../context/portfolioContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 import { getData } from './Utils/crud'
 
 const Experience = () => {
