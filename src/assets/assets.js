@@ -23,7 +23,7 @@ import address from './address.png'
 import telephone from './telephone.png' 
 import email from './email.png'
 import available from './available.png'
-import linkedIn from './linkedIn.png'
+import linkedIn from './LinkedIn.png'
 import insta from './Instagram.png'
 
 import mbali1 from './mbali1.jpeg'
