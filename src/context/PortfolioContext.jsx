@@ -21,7 +21,7 @@ const PortfolioContextProvider = (props) => {
       }
       return chunks;
     };
-    const api  = "http://3.20.204.44:3000/api/collection"
+    const api  = "https://mbalsbackend.duckdns.org/api/collection"
   // const api = "http://localhost:3000/api/collection"
   const value = {api,projectId, setProjectId,displayProject,setDisplayProject,cert,setCert,chunkProjects,displayImg,setDisplayImg,isAuthenticated, setIsAuthenticated,editable,setEditable,setRefresh,refresh};  
   return (
