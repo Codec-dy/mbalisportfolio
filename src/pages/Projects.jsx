@@ -1,7 +1,7 @@
 import React, { use, useContext, useEffect, useState } from 'react'
 // import { projects, } from '../assets/assets'
 import ViewGallery from '../components/ViewGallery';
-import { PortfolioContext } from '../context/PortfolioContext';
+import { PortfolioContext } from '../context/portfolioContext';
 import { getData } from '../components/Utils/crud';
 
 const Projects = () => {

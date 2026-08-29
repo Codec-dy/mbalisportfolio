@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import MiniProjections from './miniProjections'
+import MiniProjections from './MiniProjections'
 import ProjectCard from './ProjectCard';
 import { PortfolioContext } from '../context/portfolioContext';
 import { getData } from './Utils/crud';
