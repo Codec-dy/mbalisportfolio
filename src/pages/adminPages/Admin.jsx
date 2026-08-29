@@ -9,7 +9,7 @@ const Admin = () => {
     const navigate = useNavigate();
     const {setIsAuthenticated,api} = useContext(PortfolioContext);
     const login = async() => {
-        axios.post("https://mbalsbackend.onrender.com"+'/admin',
+        axios.post("http://3.20.204.44:3000"+'/admin',
             loginDetails
         ).then((response) => {
             if(response.data===true){
