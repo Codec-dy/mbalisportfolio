@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { PortfolioContext } from '../context/portfolioContext';
+import { PortfolioContext } from '../context/PortfolioContext';
 import ProjectCard from './ProjectCard';
 
 
